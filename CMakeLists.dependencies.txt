@@ -9,4 +9,5 @@ INCLUDE(CouchbaseSingleModuleBuild)
 
 IF(WIN32)
 ADD_SUBDIRECTORY(libevent)
+ADD_SUBDIRECTORY(curl)
 ENDIF(WIN32)
